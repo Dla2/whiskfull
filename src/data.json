@@ -1,0 +1,26 @@
+[
+    [
+    {
+        "name": "Cakes",
+        "types": [{"name": "Classic Vanilla Cake", "price": "$$$"},{"name": "Decadent Chocolate Cake", "price": "$$$"},{"name": "Red Velvet Cake", "price": "$$$"},{"name": "Custom Cakes", "price": "$$$"}]
+    },
+    {
+        "name": "Brownies",
+        "types": [{"name": "Fudgy Chocolate Brownies", "price": "$$$"},{"name": "Walnut Brownies", "price": "$$$"},{"name": "Blondies", "price": "$$$"}]
+    },
+    {
+        "name": "Cookies",
+        "types": [{"name": "Chocolate Chip Cookies", "price": "$$$"},{"name": "Oatmeal Raisin Cookies", "price": "$$$"},{"name": "Double Chocolate Cookies", "price": "$$$"},{"name": "Lemon Cookies", "price": "$$$"}]
+    },
+    {
+        "name": "Pastries",
+        "types": [{"name": "Croissants", "price": "$$$"},{"name": "Pain Au Chocolat", "price": "$$$"},{"name": "Cinnamon Rolls", "price": "$$$"},{"name": "Fruit Danish", "price": "$$$"}]
+    }
+],
+[
+    {"name": "Emily", "testimonial": "Whiskfull made my birthday so special! The custom cake was not only stunning but also absolutely delicious. Everyone at the party raved about it!"},
+    {"name": "Jason", "testimonial": "I’m obsessed with their brownies! They’re perfectly fudgy and rich—I can never have just one."},
+    {"name": "Sophia", "testimonial": "The pastries here are like a little slice of heaven. The croissants are so flaky and buttery, they remind me of my trip to Paris!"},
+    {"name": "Liam", "testimonial": "Whiskfull is my go-to for cookies. They’re always fresh, and the double chocolate ones are a chocolate lover’s dream!"}
+]
+]

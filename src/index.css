@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1 {
+        @apply text-H1-M md:text-H1-D font-headings
+    }
+
+    h2 {
+        @apply text-H2-M md:text-H2-D font-headings
+    }
+
+    h3 {
+        @apply text-H3-M md:text-H3-D font-headings
+    }
+
+    h4 {
+        @apply text-H4-M md:text-H4-D font-headings
+    }
+
+    h5 {
+        @apply text-H5-M md:text-H5-D font-headings
+    }
+
+    h6 {
+        @apply text-H6-M md:text-H6-D font-headings
+    }
+
+    a,p,span,input, label, button {
+        @apply font-body
+    }
+}
+
+@layer components {
+    .btn {
+        border-radius: theme('borderRadius.xl');
+        padding-inline: theme('padding.5');
+        padding-block: theme('padding.3');
+    }
+
+    .helper {
+        margin-inline: theme('margin.auto');
+        padding-inline: theme('padding.4');
+        padding-block: theme('padding.16');
+        @media (min-width: 768px) {
+            padding-inline: theme('padding.10');
+            padding-block: theme('padding.20');
+        }
+        @media (min-width: 1024px) {
+            padding-inline: theme('padding.16');
+            padding-block: theme('padding.28');
+        }
+    }
+}
